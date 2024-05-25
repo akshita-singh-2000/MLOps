@@ -1,5 +1,5 @@
 # from sklearn.datasets import fetch_rcv1
-import mlflow, datetime, os, pickle, random
+import mlflow, datetime, os, pickle, random # type: ignore
 # import sklearn
 from joblib import dump
 from sklearn.datasets import make_classification
@@ -9,7 +9,6 @@ from sklearn.ensemble import RandomForestClassifier
 import argparse
 
 sys.path.insert(0, os.path.abspath('..'))
-
 
 if __name__ == '__main__':
 
