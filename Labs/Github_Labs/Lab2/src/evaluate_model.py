@@ -3,6 +3,7 @@ from sklearn.metrics import f1_score
 import joblib, glob, sys
 import argparse
 from sklearn.datasets import make_classification
+import pandas
 
 sys.path.insert(0, os.path.abspath('..'))
 
